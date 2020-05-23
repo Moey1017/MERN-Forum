@@ -1,0 +1,527 @@
+/*Landing page */
+html {
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: grey;
+    background-image: url("https://external-preview.redd.it/NST6nZiFhnPeKy7aZo4lBBQPkBLXWdZYwTiukVdCQpc.png?auto=webp&s=902e98f52736c4d75e5e19c215fd4b310afd9c62");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container
+{
+    min-width: 1200px;
+    padding-top: 0;
+
+}
+.content
+{
+    width: 100%;
+}
+
+.header img
+{
+    width: 250px;
+    padding: 30px;
+    padding-left: 0;
+}
+
+.login_button
+{
+    padding-right: 20px;
+    color: #cc9207;
+    font-size: 30px;
+}
+
+.login_button:hover
+{
+
+    color: #cc9207;
+    color: #ffb200;
+    text-decoration:none;
+}
+
+.user_login_icon
+{
+    background-color: #D7D7D7;
+    width: 30px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    transition: 0.15s all linear;
+    opacity: 0.7;
+    position: relative;
+    padding-top: 5px;
+}
+
+.user_login_icon img
+{
+    width: 25px;
+    position: relative;
+    margin-top: -10px;
+}
+
+.mr-auto
+{
+    right: 0;
+    position: absolute;
+}
+
+.discussion_header
+{
+    background-color: #555555;
+    color: #f2a900;
+    font-family: Teko, sans-serif;
+    border-radius: 2px 2px 0px 0px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divider
+{
+    height: 80px;
+}
+
+.discussion_header h3
+{
+    padding: 10px;
+    margin: 0;
+}
+
+.add_new_post
+{
+    padding: 10px;
+    margin: 0;
+}
+
+.add_new_post h5
+{
+    margin: 0;
+    position: relative;
+    top: 5px;
+}
+
+.table_container
+{
+    width: 100%;
+    background-color: white;
+}
+
+.post_table_row
+{
+    display: flex;
+}
+
+.post_table_row:nth-child(even) {
+    background-color: #ebebeb;
+}
+
+.post_table_row_header
+{
+    padding: 15px 10px 15px 20px;
+    margin-top: 5px;
+    width: 100px;
+}
+
+.post_table_row_title a
+{
+
+    color: #cc9207;
+}
+
+.post_table_row_title a:hover
+{
+    color: #ffb200;
+    text-decoration:none;
+}
+
+.post_table_row_header img  
+{
+    width: 20px;
+}
+
+.icon_border
+{
+    background-color: #D7D7D7;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    transition: 0.15s all linear;
+}
+
+.post_table_row_title
+{
+    padding: 15px 10px 15px 20px;
+    margin-top: 7px;
+    font-size: 20px;
+    padding-left: 0;
+}
+
+.post_table_row_footer
+{
+    position: absolute;
+    right: 20px;
+}
+
+.edit_delete
+{
+    margin-left: 90px;
+}
+
+.post_table_row_footer ul
+{
+    list-style-type: none;  
+}
+
+.user_icon
+{
+    background-color: #D7D7D7;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    transition: 0.15s all linear;
+    position: absolute;
+    right: 230px;
+    margin-top: 20px;
+}
+
+.user_icon img
+{
+    width: 30px;
+}
+
+.footer_header h3
+{
+    color:#f2a900;
+    font-weight: 700;
+}
+
+.comment_header
+{
+    background-color: #EBF4F9;
+}
+
+.comment_contents
+{
+    background-color: white;
+}
+
+.commnet_table_row_content
+{
+    padding-left: 100px;
+    padding-right: 260px;
+    height: 100px;
+}
+
+.post_content
+{
+    padding-left: 100px;
+    padding-right: 260px;
+    height: 100px;
+}
+
+.userName
+{
+    color: #ffb200;
+}
+
+.logOut
+{
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    width: 300px;
+    position: absolute;
+    top: 280px;
+    left: 36%;
+}
+
+.logOut_header
+{
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.logOut_body
+{
+    padding-left: 100px;
+    display: flex;
+}
+
+.return_back a
+{
+    text-decoration: none;
+}
+
+.return_back p
+{
+    padding-left: 50px;
+    color: #cc9207;
+    text-decoration: none;
+}
+
+.return_back p:hover
+{
+    color: #ffb200;
+    text-decoration: none;
+
+}
+
+.logOut_button
+{
+    color: #cc9207;
+    text-decoration: none;
+}
+
+.logOut_button:hover
+{
+    color: #ffb200;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.toHome
+{
+    text-decoration: none;
+    color: white;
+}
+
+.toHome:hover
+{
+    text-decoration: none;
+    color: white;
+}
+
+.user_table
+{
+    background-color: grey;
+}
+
+.container {
+    padding-top: 10px;
+}
+
+.loginForm_container
+{
+    opacity: 0.7;
+    text-align: center;
+    width: 50%;
+    position:absolute;
+    left: 22%;
+    margin-top: 220px;
+}
+
+.login_form_header
+{
+    color: black;
+    position:absolute;
+    left: 40%;
+    margin-top: 150px;
+}
+
+.registrationForm
+{
+    opacity: 0.7;
+    text-align: center;
+    width: 50%;
+    position:absolute;
+    left: 22%;
+    margin-top: 220px;
+}
+
+.registrationForm_header
+{
+    color: black;
+    position:absolute;
+    left: 36%;
+    margin-top: 150px;
+}
+
+.error li
+{
+    list-style-type: none;
+    color: black;
+    opacity: 1;
+}
+
+.form_container
+{
+    padding:100px;
+}
+
+/* delete buttons */
+.delete_user_button
+{
+    padding: 7px 10px;
+    font-size: 0.875rem;
+    line-height: normal;
+    border-radius: 0.2rem;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    margin-right: 10px;
+    position: relative;
+    top: 1px;  
+    text-decoration: none;
+    cursor:pointer;
+}
+
+
+.delete_user_button
+{
+    background-color: #dc3545;
+}
+
+
+delete_user_button:hover
+{
+    text-decoration: none;
+    color:#fff;
+}
+
+
+
+.delete_user_button:hover
+{
+    background-color: #a01020; 
+}
+
+/* end of link buttons */
+
+
+/* table of cars */
+.table-container table
+{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.table-container thead
+{
+    background-color: #aaa;
+    color:#fff;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.table-container tbody tr
+{
+    height:3em;
+}
+
+.table-container thead th,
+.table-container tbody td
+{
+    padding:5px;
+}
+.table-container tbody tr:nth-child(odd) 
+{
+    background-color: #eee;
+}
+
+.table-container tbody tr:nth-child(even) 
+{
+    background-color: #ffa;
+}
+
+
+.grn_btn,
+.red_btn,
+blu_btn
+{
+    padding: 7px 10px;
+    font-size: 0.875rem;
+    line-height: normal;
+    border-radius: 0.2rem;
+    color: #fff;
+    background-color: #28a745;
+    margin-right: 10px;
+    position: relative;
+    top: 1px;  
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.grn_btn
+{
+    background-color: #28a745;
+}
+
+.red_btn
+{
+    background-color: #dc3545;
+}
+
+.blu_btn
+{
+    background-color: #3545dc;
+}
+
+.grn_btn:hover,
+.red_btn:hover,
+.blu_btn:hover
+{
+    text-decoration: none;
+    color:#fff;
+}
+
+.grn_btn:hover
+{
+    background-color: #107020; 
+}
+
+.red_btn:hover
+{
+    background-color: #a01020; 
+}
+
+.blu_btn:hover
+{
+    background-color: #1020a0; 
+}
+
+.form_header
+{
+    color:white;
+}
+
+.register_account
+{
+    margin-left: 80px;
+    font-size: 14px;
+}
+
+.notes li
+{
+    list-style-type: none;
+    color: red;
+    opacity: 1;
+    background-color:white;
+}
+
+.notes ul
+{
+    padding:0;
+    padding-left:150px;
+    padding-right:150px;
+}
+
+.content_div
+{
+    width:100%;
+    resize:none;
+    height:200px;
+}
